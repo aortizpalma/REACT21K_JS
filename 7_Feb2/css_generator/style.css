@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(17, 117, 117);
+  background-image: linear-gradient(to top right, #560b0b, #c43b3b);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+
+.section_format {
+  height: 250px;
+  width: 600px;
+  margin: auto;
+}
+
+.nav_a {
+  height: 70px; /* this changes when scrolling down */
+  width: 100%;
+  background: transparent; /* this changes when scrolling down */
+  margin: 50px auto;
+  padding: 20px; /* this changes when scrolling down */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  text-align: center;
+  transition: 0.5s;
+  font-size: 100%; /* this changes when scrolling down */
+}
+
+.button {
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: x-large;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
+
+.button:hover {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(71, 68, 68);
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: x-large;
+  border-radius: 5px;
+  border: none;
+}
+
+hr {
+  border-style: dashed;
+  border-width: 0.5px;
+  margin: 20px;
+}
+
+input[type="color"] {
+  border-color: white;
+  background-color: white;
+  border-radius: 5px;
+  border-width: 0.5px;
+  width: 50px;
+}
+
+.direction {
+  display: inline-block;
+}
+
+.p_code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  background-color: black;
+  padding: 20px;
+  margin-top: 20px;
+}

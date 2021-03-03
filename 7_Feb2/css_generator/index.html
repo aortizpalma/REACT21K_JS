@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav_a" id="nav_a">
+        <h1>CSS Background Generator</h1>
+        
+        <h2>Generate a custom gradient background</h2>
+    </div>
+    
+    <main>
+        
+        <form>
+            <section>
+                <div class="section1, section_format">
+                    <hr>
+                    <h3>First, choose the direction:</h3>
+                    <span>
+                        <input checked type="radio" name="direction" id="lefttoright" value="to right">
+                        <label for="lefttoright">Left To Right</label>
+
+                        <input type="radio" name="direction" id="righttoleft" value="to left">
+                        <label for="righttoleft">Right to Left</label>
+
+                        <input type="radio" name="direction" id="toptobottom"
+                        value="to bottom">
+                        <label for="toptobottom">Top to Bottom</label>
+
+                        <input type="radio" name="direction" id="bottomtotop" value="to top">
+                        <label for="bottomtotop">Bottom to Top</label>
+                    </span>
+                    
+                </div>
+                
+            </section>        
+            
+            
+            <section>
+                <div class="section2, section_format">
+                    <hr>
+                    <h3>Second, choose the colors:</h3>
+                    <span>
+                        <input type="color" id="color1" value="#560b0b">
+                        <input type="color" id="color2" value="#c43b3b">
+                    </span>
+                </div>
+            </section>
+            
+            
+            <section>
+                <div class="section3, section_format">
+                    <hr>
+                    <h3>Third, generate your gradient:</h3>
+                    <span>
+                        <input type="submit" value="Generate" class="button">
+                    </span>
+                </div>
+                
+                
+            </section>
+            
+            <section>
+                <div class="section4, section_format">
+                    <hr>
+                    <h4>Finally, copy your CSS code:</h4>
+                    <span>
+                        <p class="p_code"></p>
+                    </span>
+                    <hr>
+                </div>
+                
+                
+            </section>
+            
+        </form>
+        </main>
+        <script src="script.js"></script>
+    </body>
+    </html>

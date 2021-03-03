@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Database</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+    <h1>Car Database</h1>
+
+    <h2>Add new car to the database:</h2>
+
+    <form action="">
+        <div>
+            <label for="plate">Licence plate: </label>
+            <input type="text" name="" id="plate">
+        </div>
+
+        <div>
+            <label for="carMaker">Car maker: </label>
+            <input type="text" name="" id="carMaker">
+        </div>
+
+        <div>
+            <label for="carModel">Car model: </label>
+            <input type="text" name="" id="carModel">
+        </div>
+
+        <div>
+            <label for="price">Price: $</label>
+            <input type="number" name="" id="price">
+        </div>
+
+        <div>
+            <label for="color">Color: </label>
+            <input type="color" name="color" id="color">
+        </div>
+
+    </form>
+
+
+<br>
+
+<button onclick="register()">Register Car</button>
+
+
+<!-- Confirms the status of the added car -->
+<p id="registerStatus"></p> 
+
+<br>
+<br>
+<br>
+
+<h2>Search car</h2>
+
+<form action="">
+    <div>
+        <label for="plate">Licence plate: </label>
+        <input type="text" name="" id="plate">
+    </div>
+
+    <div>
+        <label for="carMaker">Car maker: </label>
+        <input type="text" name="" id="carMaker">
+    </div>
+
+    <div>
+        <label for="carModel">Car model: </label>
+        <input type="text" name="" id="carModel">
+    </div>
+
+    <div>
+        <label for="price">Price: $</label>
+        <input type="number" name="" id="price">
+    </div>
+
+    <div>
+        <label for="color">Color: </label>
+        <input type="color" name="color" id="color">
+    </div>
+
+</form>
+
+<br>
+
+<button onclick="search()">Search Car</button>
+
+<!-- Confirms the status of the added car -->
+<p id="searchStatus"></p> 
+
+<br>
+<br>
+<br>
+<h2>Car discount</h2>
+<p>Find out if the car has a discount:</p>
+
+<form action="">
+    <div>
+        <label for="price">Please enter the price of the car: $</label>
+        <input type="number" name="" id="price">
+    </div>
+
+</form>
+
+
+<br>
+
+<button onclick="discount()">Find discount</button>
+
+<br>
+
+<!-- Show the discount based on the price -->
+<p id="discountStatus"></p> 
+
+<script src="script.js"></script>
+</body>
+</html>

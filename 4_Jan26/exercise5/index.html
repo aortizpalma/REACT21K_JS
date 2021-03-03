@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+    <h1>Exercise 5 - Daily salary calculator</h1>
+
+    <h2>Please enter the information below to calculate you day's salary.</h2>
+    <p>Thanks!</p>
+
+    <h2>Required information:</h2>
+
+    <p>Hours worked in the day:</p>
+    
+    
+    <form action="">
+        <div>
+            <label for="hours">-></label>
+            <input type="text" name="" id="hours">
+        </div>
+    </form>
+    
+    <p>Regular hourly salary. We'll calculate the rate of the extra hours on our end.</p>
+    <form action="">
+        <div>
+            <label for="hourlyRate">-></label>
+            <input type="text" name="" id="hourlyRate">
+        </div>
+    </form>
+
+
+<br>
+<button onclick="calculate2()">Calculate Day's Salary</button>
+
+<p>Your day's total salary is $ <span id="solution"></span></p>
+
+<p>You got $<span id="totalRate1"></span>at the normal hourly rate.</p>
+<p>You got $<span id="totalRate2"></span>at the extra horly rate 1 (+50%).</p>
+<p>You got $ <span id="totalRate3"></span>at the extra horly rate 1 (+100%).</p>
+
+<script src="script.js"></script>
+</body>
+</html>

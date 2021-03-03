@@ -1,0 +1,16 @@
+body {
+  background-color: lightgray;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-size: small;
+}
+
+h1 {
+  font-size: large;
+}
+h2 {
+  font-size: medium;
+}

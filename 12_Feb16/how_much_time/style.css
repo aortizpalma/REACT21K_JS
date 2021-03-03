@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 500px;
+  background-color: hsla(209, 13%, 50%, 0.527);
+  padding: 30px;
+}
+
+.wrapper,
+.formBox,
+.buttonBox,
+.resultsBox {
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#countdown {
+  font-size: xx-large;
+}
+
+h3 {
+  color: red;
+  padding-top: 20px;
+}
+
+p {
+  padding-bottom: 20px;
+}

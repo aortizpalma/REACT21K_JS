@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 80px;
+}
+
+header,
+section,
+footer {
+  padding: 2rem;
+}
+
+section footer {
+  color: white;
+}
+
+.bg {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+}
+
+.bg a {
+  color: white;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+}
+
+.logo {
+  font-size: larger;
+}
+
+#mobileButton {
+  display: none;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+section {
+  min-height: 50vh;
+  background-color: lightblue;
+}
+
+section:first-child {
+  background-color: rgb(64, 140, 165);
+}
+
+section:nth-child() {
+  background-color: rgb(36, 98, 119);
+}
+
+section:last-child {
+  background-color: rgb(9, 49, 63);
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  height: 10vh;
+  color: white;
+}
+
+#backToTop {
+  background-color: yellow;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+#backToTop:hover {
+  background-color: rgb(190, 190, 42);
+}
+
+@media (max-width: 576px) {
+  #mobileButton {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav.responsive ul {
+    display: block;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 70px;
+  }
+
+  nav ul li {
+    display: block;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 1rem 2rem;
+  }
+}

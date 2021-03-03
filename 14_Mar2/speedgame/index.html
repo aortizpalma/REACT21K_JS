@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedgame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <h1>Speedgame</h1>
+
+        </div>
+
+        <div class="score">
+            <p>Your score: <span id="scoreDisplay"></span></p>
+        </div>
+
+        <div class="circles">
+            <button class="circle1 highlight" id="circ1" onclick="clickButton(1)" value="circ1" type="submit" name="b1">Circle1</button>
+            <button class="circle2" id="circ2" onclick="clickButton(2)" value="circ2" type="submit">Circle2</button>
+            <button class="circle3" id="circ3" onclick="clickButton(3)" value="circ3" type="submit">Circle3</button>
+            <button class="circle4" id="circ4" onclick="clickButton(4)" value="circ4" type="submit">Circle4</button>
+        </div>
+
+        <div class="buttons">
+            <button id="start">Start game</button>
+            <button id="stop">Stop game</button>
+        </div>
+
+        <div class="popup">
+            <div>
+                <p>Oops, game over!</p>
+                <p>Your final score was <span id="scoreDisplay"></span></p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

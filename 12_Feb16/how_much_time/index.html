@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How much time?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <h1>How much time to X?</h1>
+    
+    <main>
+        <div class="formBox">
+            
+            <form action="">
+                
+                <label for="eventDateField">Enter an event date: </label>
+                <br>
+                <input type="date" name="" id="eventDateField">
+                
+                <br>
+                <br>
+                <br>
+
+                <label for="eventField">Enter the event name: </label>
+                <br>
+                <input type="text" name="" id="eventField">
+
+                <br>
+                <br>
+                <br>
+
+                <label for="startDateField">If you wish to count the days left to the event starting from a specific date, please also enter a starting date below: </label>
+                <br>
+                <input type="date" name="" id="startDateField">
+
+
+            </form>
+            
+            <div class="buttonBox">
+                <button onclick="calculate()" type="submit">Submit</button>
+            </div>        
+            
+        </div>
+        
+        <div class="resultsBox">
+            <p id="summary"></p>
+            <br>
+            <br>
+            <br>
+            <h3>Number of days left to the event:</h3>
+            <p id="daysLeftFromNow"> </p>
+            <p id="daysLeftFromDate"> </p>
+            <h3>Countdown from now:</h3>
+            <p id="countdown"> </p>
+
+
+            <br>
+            <br>
+            <br>
+            
+            <h3>Number of business days left to the event: </h3> <p id="businessDaysLeft"> </p>
+        </div>
+        
+    </main>
+</div>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>

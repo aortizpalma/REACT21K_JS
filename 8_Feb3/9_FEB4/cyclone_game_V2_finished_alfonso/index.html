@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyclone Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the Cyclone Game</h1>
+    
+    <div class="setup">
+        
+        
+        <p>Please select the speed and number of bulbs to play with:</p>
+        <table>
+            <td>
+                <label for="speed">Speed</label>
+                <br>
+                <span>
+                    
+                    Faster <input type="range" name="speed" id="speed" min="100" max="500" value="250"> Slower
+                </span>
+
+            </td>
+            <td>       </td>
+            <td>
+                <label for="speed">Number of bulbs</label>
+                <br>
+                <span>   
+                    Less <input type="range" name="bulbCount" id="bulbCount" min="10" max="50" value="20"> More
+                </span>
+                
+
+            </td>
+
+        </table>
+            
+            <br>
+            <button id="start-btn">Start the game</button>
+            <br>
+            <p>Press the button below to try to stop the light in the red bulb:</p>
+
+            <button id="stop-btn">STOP</button>
+        </div>
+
+    <div id="light-bulbs">
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
