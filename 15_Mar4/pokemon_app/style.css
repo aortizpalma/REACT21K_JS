@@ -1,0 +1,35 @@
+body {
+  background-color: crimson;
+}
+
+.pokemon-container {
+  width: 90%;
+  display: block;
+}
+
+.pokemon-image {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  width: 350px;
+  visibility: visible;
+}
+
+.pokemon-name {
+  width: 350px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: aliceblue;
+  margin: auto;
+  text-transform: capitalize;
+}
+
+#seeDetails:active {
+  color: blue;
+}
