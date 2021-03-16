@@ -26,14 +26,16 @@
         </div>
 
         <div class="buttons">
-            <button id="start">Start game</button>
-            <button id="stop">Stop game</button>
+            <button id="startStop" class="startStop" onclick="startStopGame()">Start game</button>
         </div>
 
-        <div class="popup">
+        <div id="gameOverMessage" class="">
             <div>
                 <p>Oops, game over!</p>
-                <p>Your final score was <span id="scoreDisplay"></span></p>
+                <p>Your final score was <span id="scoreDisplay2"></span></p>
+
+                <div id="close" onclick="startStopGame()" class="close">X</div>
+
             </div>
         </div>
 

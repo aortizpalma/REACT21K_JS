@@ -48,7 +48,7 @@ else {
 console.log ('The fifth random number 0');
 }
 
-// Jacpot calculation and messaging.
+// Jakcpot calculation and messaging.
 let jackpot = (chosenNumber1+chosenNumber2+chosenNumber3+chosenNumber4+chosenNumber5);
 
 switch(jackpot) {

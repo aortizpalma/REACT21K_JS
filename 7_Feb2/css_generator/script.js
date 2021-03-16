@@ -1,10 +1,10 @@
 let form = document.querySelector("form");
 
-let color1 = document.querySelector("#color1");
-let color2 = document.querySelector("#color2");
-let text = document.querySelector(".p_code");
+let color1 = document.querySelector("#color1"); //select the id color1
+let color2 = document.querySelector("#color2"); //select the id color2
+let text = document.querySelector(".p_code"); //select the class p_code
 
-let direction = document.querySelectorAll('input[name="direction"]');
+let direction = document.querySelectorAll('input[name="direction"]'); //selects the values from the radio buttons with the name="direction"
 
 const setGradient = (event) => {
     event.preventDefault();
@@ -30,6 +30,9 @@ const setGradient = (event) => {
 }
 
 form.addEventListener("submit", setGradient);
+
+
+// Test of adjustable fixed header when scrolling down
 
 let header = document.getElementById("nav_a");
 

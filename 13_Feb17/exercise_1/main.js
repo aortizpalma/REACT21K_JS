@@ -1,7 +1,10 @@
-window.addEventListener('DOMContentLoaded', (event) => { //This allows to run the code once DOMcontentIsLoaded, so it would run even if the code is called from the header section of the HTML.
+//This allows to run the code once DOMcontentIsLoaded, so it would run even if the code is called from the header section of the HTML.
+
+window.addEventListener('DOMContentLoaded', (event) => { 
     console.log('DOM fully loaded and parsed');
 
-    (function(){ //Anonymous function to self execute the code but keep it contained.
+    //Anonymous function to self execute the code but keep it contained.
+    (function(){ 
 
         let personId;
         let personName;

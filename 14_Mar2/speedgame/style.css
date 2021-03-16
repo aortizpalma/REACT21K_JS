@@ -85,9 +85,34 @@ body {
   position: relative;
 }
 
-.popup {
+.popup_show {
   width: 350px;
   height: 150px;
   background-color: mediumaquamarine;
   margin: auto;
+  visibility: visible;
+}
+
+.popup_invisble {
+  width: 350px;
+  height: 150px;
+  background-color: mediumaquamarine;
+  margin: auto;
+  visibility: hidden;
+}
+
+.button_disabled {
+  pointer-events: none;
+}
+
+#gameOverMessage {
+  visibility: hidden;
+}
+
+.close {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  position: relative;
+  text-align: center;
 }
