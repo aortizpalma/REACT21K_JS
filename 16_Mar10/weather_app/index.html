@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>Helsinki Weather App</title>
     <link rel="stylesheet" href="style.css">
     <script src="scripts.js"></script>
 </head>
@@ -12,11 +12,15 @@
 
     <div class="container">
         <h1>Weather App</h1>
-        <div class="notifications">Notifications</div>
         <div class="infoContainer">
-            <div class="temperature">- °C</div>
-            <div class="location">City, COUNTRY</div>
-            <div class="description">Description</div>
+            <div id="tempCelsius" class="temperature">- °C</div>
+            <div class="icon">
+                <img id="iconUrl" src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" >
+                <div id="description" class="description">Description</div>
+            </div>
+            <div id="cityCountry" class="location">
+                    City, COUNTRY
+            </div>
         </div>
     </div>
 
